@@ -25,6 +25,9 @@ img {
 
 .nav-container a {
   color: #F2F2F2;
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 
 header {
