@@ -188,7 +188,9 @@ section {
   border-radius: 1em;
   margin-bottom: 2em;
 }
-
+.portfolio img:hover{
+  transform: scale(1.1);
+}
 @media only screen and (min-width: 800px) {
   .featured, .portfolio {
     text-align: left;
@@ -226,6 +228,9 @@ section {
   .portfolio-container img {
     margin-left: 2em;
   }
+  .outer-nav{
+  padding-right: 4em;
+}
 }
 
 @media only screen and (min-width: 1000px) {
@@ -267,6 +272,7 @@ section {
     float: right;
     max-width: 500px;
   }
+  
 }
 
 @media only screen and (min-width: 1250px) {
@@ -279,5 +285,12 @@ section {
   .hero .content {
     padding: 6em 8em 6em 10em;
   }
+}
+
+.featured img{
+    border-radius: 2em;
+}
+.featured img:hover{
+  transform: scale(1.1);
 }
 /*# sourceMappingURL=main.css.map */
